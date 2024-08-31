@@ -6,9 +6,11 @@
 ### Introdução ao Ambiente Cloud
 |Tipo|Atividade|C.H.|Nível|Data Conclusão|Observações|
 |---|---|---|---|---|---|
+|---|---|---|---|---|---|
 
 ### Conceitos Iniciais de Cloud Azure
 |Tipo|Atividade|C.H.|Nível|Data Conclusão|Observações|
+|---|---|---|---|---|---|
 |---|---|---|---|---|---|
 
 ### Arquitetura e Serviços Azure
@@ -24,7 +26,7 @@
 ## Estatísticas de Atividades
 ### Introdução ao Ambiente Cloud
 - X cursos
-- X1 desafio
+- X desafio
 - X horas
 
 **Por Nível**
@@ -62,7 +64,7 @@ _Nível Avançado_:
 
 ### Arquitetura e Serviços Azure
 - X cursos
-- X1 desafio
+- X desafio
 - X horas
 
 **Por Nível**
@@ -81,7 +83,7 @@ _Nível Avançado_:
 
 ### Gerenciamento e Governança na Azure
 - X cursos
-- X1 desafio
+- X desafio
 - X horas
 
 **Por Nível**
