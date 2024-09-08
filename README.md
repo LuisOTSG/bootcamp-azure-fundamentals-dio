@@ -2,7 +2,7 @@
 
 ## Atividades
 - Introdução ao Ambiente Cloud
-- onceitos Iniciais de Cloud Azure
+- Conceitos Iniciais de Cloud Azure
 - Arquitetura e Serviços Azure
 - Gerenciamento e Governança na Azure
 
