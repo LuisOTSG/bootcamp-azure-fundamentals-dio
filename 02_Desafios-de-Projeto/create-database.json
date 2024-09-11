@@ -1,0 +1,48 @@
+{
+    "sku": {
+        "name": "GP_S_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 2
+    },
+    "kind": "v12.0,user,vcore,serverless,freelimit",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Online",
+        "databaseId": "122303bf-370b-45d7-92cc-e782fe4f11db",
+        "creationDate": "2024-09-10T13:49:09.683Z",
+        "currentServiceObjectiveName": "GP_S_Gen5_2",
+        "requestedServiceObjectiveName": "GP_S_Gen5_2",
+        "defaultSecondaryLocation": "centralus",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "maxLogSizeBytes": 193273528320,
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_S_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 2
+        },
+        "autoPauseDelay": 60,
+        "currentBackupStorageRedundancy": "Local",
+        "requestedBackupStorageRedundancy": "Local",
+        "minCapacity": 0.5,
+        "maintenanceConfigurationId": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "useFreeLimit": true,
+        "freeLimitExhaustionBehavior": "AutoPause",
+        "availabilityZone": "NoPreference"
+    },
+    "location": "eastus2",
+    "tags": {
+        "env": "dev",
+        "workspace": "lab",
+        "resource-category": "database"
+    },
+    "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Sql/servers/asqls-azdio-bootcamp/databases/asqldb-azdio-bootcamp",
+    "name": "asqldb-azdio-bootcamp",
+    "type": "Microsoft.Sql/servers/databases"
+}

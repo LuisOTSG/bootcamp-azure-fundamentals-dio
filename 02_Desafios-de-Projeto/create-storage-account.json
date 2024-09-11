@@ -1,0 +1,67 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Storage/storageAccounts/asaazdiobootcamp",
+    "name": "asaazdiobootcamp",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus2",
+    "tags": {
+        "env": "dev",
+        "workspace": "lab",
+        "resource-category": "storage"
+    },
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2024-09-10T15:18:30.2524320Z",
+            "key2": "2024-09-10T15:18:30.2524320Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-09-10T15:18:30.8149445Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-09-10T15:18:30.8149445Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-09-10T15:18:30.1118028Z",
+        "primaryEndpoints": {
+            "dfs": "https://asaazdiobootcamp.dfs.core.windows.net/",
+            "web": "https://asaazdiobootcamp.z20.web.core.windows.net/",
+            "blob": "https://asaazdiobootcamp.blob.core.windows.net/",
+            "queue": "https://asaazdiobootcamp.queue.core.windows.net/",
+            "table": "https://asaazdiobootcamp.table.core.windows.net/",
+            "file": "https://asaazdiobootcamp.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus2",
+        "statusOfPrimary": "available"
+    }
+}

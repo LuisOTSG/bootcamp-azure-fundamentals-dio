@@ -1,0 +1,95 @@
+{
+    "name": "vnet-azdio-bootcamp",
+    "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Network/virtualNetworks/vnet-azdio-bootcamp",
+    "etag": "W/\"c9fcacc0-09a5-477f-81fc-1dcfb28d3e84\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "eastus2",
+    "tags": {
+        "env": "dev",
+        "workspace": "lab",
+        "resource-category": "networking"
+    },
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "96794760-a72f-4341-8394-55c2c271674e",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.0.0.0/16"
+            ],
+            "ipamPoolPrefixAllocations": []
+        },
+        "encryption": {
+            "enabled": true,
+            "enforcement": "AllowUnencrypted"
+        },
+        "subnets": [
+            {
+                "name": "default",
+                "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Network/virtualNetworks/vnet-azdio-bootcamp/subnets/default",
+                "etag": "W/\"c9fcacc0-09a5-477f-81fc-1dcfb28d3e84\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.0.0/24"
+                    ],
+                    "ipamPoolPrefixAllocations": [],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled",
+                    "defaultOutboundAccess": false
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "AzureFirewallSubnet",
+                "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Network/virtualNetworks/vnet-azdio-bootcamp/subnets/AzureFirewallSubnet",
+                "etag": "W/\"c9fcacc0-09a5-477f-81fc-1dcfb28d3e84\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.1.0/26"
+                    ],
+                    "ipamPoolPrefixAllocations": [],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "AzureFirewallManagementSubnet",
+                "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Network/virtualNetworks/vnet-azdio-bootcamp/subnets/AzureFirewallManagementSubnet",
+                "etag": "W/\"c9fcacc0-09a5-477f-81fc-1dcfb28d3e84\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.1.64/26"
+                    ],
+                    "ipamPoolPrefixAllocations": [],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "AzureBastionSubnet",
+                "id": "/subscriptions/dd6435b0-deae-409a-8308-89ae073c0c7f/resourceGroups/rg-azdio-bootcamp/providers/Microsoft.Network/virtualNetworks/vnet-azdio-bootcamp/subnets/AzureBastionSubnet",
+                "etag": "W/\"c9fcacc0-09a5-477f-81fc-1dcfb28d3e84\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.1.128/26"
+                    ],
+                    "ipamPoolPrefixAllocations": [],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ],
+        "virtualNetworkPeerings": [],
+        "enableDdosProtection": false
+    }
+}
